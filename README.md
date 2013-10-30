@@ -1,4 +1,4 @@
-NSAttributedString-CS
+NSAttributedString-CoffeeScript
 =====================
 
-An attributed string class for CoffeeScript
+An attributed string class for CoffeeScript.
