@@ -1,6 +1,10 @@
 root = exports ? this
 
-class NSAttributedString
-	constructor: (@string='', @attributedRanges=[]) ->
+class CSAttributedString
+	constructor: (@string='', initialAttributes) ->
+		@attributes = {}
+		for k, v of initialValues
+			@attributes[k] = v;
+		
 
-root.NSAttributedString = NSAttributedString
+root.CSAttributedString = CSAttributedString
